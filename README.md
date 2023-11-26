@@ -169,7 +169,7 @@ python cli_demo.py
 关于工具调用的方法请参考 [工具调用](tool_using/README.md)。 
 
 ### API 部署
-感谢 [@xusenlinzy](https://github.com/xusenlinzy) 实现了 OpenAI 格式的流式 API 部署，可以作为任意基于 ChatGPT 的应用的后端，比如 [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)。可以通过运行仓库中的[openai_api.py](openai_api_demo/openai_api.py) 进行部署：
+感谢 [@xusenlinzy](https://github.com/xusenlinzy) 实现了 OpenAI 格式的流式 API 部署，可以作为任意基于 ChatGPT 的应用的前端，比如 [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)。可以通过运行仓库中的[openai_api.py](openai_api_demo/openai_api.py) 进行部署：
 ```shell
 cd openai_api_demo
 python openai_api.py
